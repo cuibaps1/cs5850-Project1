@@ -31,3 +31,9 @@ Cobertura
 Checkstyle 
 Findbugs
 CircleCI
+
+To generate the reports, execute:
+
+`mvn site`
+
+
