@@ -10,7 +10,7 @@ import com.cs5850.GoogleDriveServiceProvider;
 
 public class App {
 	static void usage() {
-        System.err.println("usage: java WatchDir dir");
+        System.err.println("usage: java Watch Folder dir");
         System.exit(-1);
     }
 
