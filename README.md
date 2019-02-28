@@ -18,6 +18,7 @@ For testing:
 Run the application
 
 `javac App.java`
+
 `java App @specifiedTheWatchedFolder`
 
 ## Functions
