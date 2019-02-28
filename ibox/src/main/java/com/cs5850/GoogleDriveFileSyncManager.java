@@ -9,13 +9,14 @@ import com.google.api.services.drive.Drive.Files.List;
 import com.google.api.services.drive.model.File;
 import com.google.api.services.drive.model.FileList;
 
-public class GoogleDriveFileSyncManager{
+public class GoogleDriveFileSyncManager implements FileSyncManager{
 
 	public Drive service;
 
 	public GoogleDriveFileSyncManager(Drive service) {
 		this.service = service;
 }
+
 	public void upload(java.io.File localFile) throws IOException {
 		// upload file
 		File body = new File();

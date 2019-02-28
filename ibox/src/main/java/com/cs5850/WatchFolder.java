@@ -15,6 +15,7 @@ import java.nio.file.WatchService;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.cs5850.FileSyncManager;
 
 public class WatchFolder {
 	private final WatchService watcher;
