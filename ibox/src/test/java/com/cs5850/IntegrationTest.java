@@ -16,13 +16,13 @@ import com.google.api.services.drive.Drive.Files;
 import com.cs5850.GoogleDriveFileSyncManager;
 import com.cs5850.GoogleDriveServiceProvider;
 public class IntegrationTest {
-	Drive mockDriveService;
+/*	Drive mockDriveService;
 	GoogleDriveFileSyncManager GoogleSync;
 		public void setup() throws IOException{		
 		mockDriveService = GoogleDriveServiceProvider.get().getGoogleDriveClient() ;
-		GoogleSync = new GoogleDriveFileSyncManager(mockDriveService);
+		//GoogleSync = new GoogleDriveFileSyncManager(mockDriveService);
 	}
-		/*public void initGoogleDriveServices() throws IOException {
+		public void initGoogleDriveServices() throws IOException {
 		       HttpTransport httpTransport = new NetHttpTransport();
 		       JsonFactory jsonFactory = new JacksonFactory();
 		       try{
@@ -41,7 +41,7 @@ public class IntegrationTest {
 		       }catch(GeneralSecurityException e){
 		           e.printStackTrace();
 		       }
-		   }*/
+		   }
 	
 	
 	@Test
@@ -113,5 +113,5 @@ public class IntegrationTest {
 		String id = GoogleSync.getFileId(null);
 		Assert.assertNull(id);
 	}
-
+*/
 }
